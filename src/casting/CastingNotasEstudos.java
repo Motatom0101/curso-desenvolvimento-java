@@ -14,5 +14,12 @@ public class CastingNotasEstudos {
 
         System.out.println(variavelInt2);
 
+        // Narrowing Casting (explícito) => Divisão entre inteiros com resultado float.
+        int num1 = 9;
+        int num2 = 2;
+        float resultado = (float) (num1 / num2); // Casting explícito
+
+        System.out.println(resultado);
+
     }
 }
