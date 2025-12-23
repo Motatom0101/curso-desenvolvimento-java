@@ -8,5 +8,11 @@ public class CastingNotasEstudos {
 
         System.out.println(variavelGrande);
 
+        // Narrowing Casting (explícito) => Quando guarda tipo maior em menor.
+        long variavelLong  = 65467;
+        int variavelInt2 = (int) variavelLong; // Casting explícito
+
+        System.out.println(variavelInt2);
+
     }
 }
