@@ -20,7 +20,7 @@ public class Main {
     }
 
     static void validar(SuperHeroi[] superHerois) {
-        if (superHerois[0] instanceof HomemAranha) {
+        if (superHerois[0] instanceof Object) {
             System.out.println("Homem Aranha validado!");
 
         }
