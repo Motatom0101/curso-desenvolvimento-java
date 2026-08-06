@@ -6,4 +6,9 @@ public class HomemDeFerro extends SuperHeroi {
 
         super(traje, superPoderes);
     }
+
+    @Override
+    public void usarSuperPoder(int index) {
+        System.out.println(superPoderes[index]);
+    }
 }
