@@ -1,6 +1,6 @@
 package heranca;
 
-public class SuperHeroi {
+public abstract class SuperHeroi {
     // Atributos:
     protected String traje;
     protected String[] superPoderes;
