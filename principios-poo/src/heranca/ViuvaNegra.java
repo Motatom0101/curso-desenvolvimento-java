@@ -5,4 +5,10 @@ public class ViuvaNegra extends SuperHeroi {
     public ViuvaNegra(String traje, String[] superPoderes) {
         super(traje, superPoderes);
     }
+
+    // Implementando o method abstrado da classe pai:
+    @Override
+    public void usarSuperPoder(int index) {
+        System.out.println(superPoderes[index]);
+    }
 }
