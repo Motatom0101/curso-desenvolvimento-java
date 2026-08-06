@@ -1,7 +1,5 @@
 package heranca;
 
-import java.util.Arrays;
-
 // Classe HomemAranha sendo estendida da Super Classe:
 public class HomemAranha extends SuperHeroi {
     // Construtor com os mesmos parâmetros que o da S. Class + chamada ao construtor canônico:
@@ -9,10 +7,10 @@ public class HomemAranha extends SuperHeroi {
 
         super(traje, superPoderes);
     }
-    // Metodo sobrescrito:
+
+    // Implementando o method abstrado da classe pai:
+    @Override
     public void usarSuperPoder(int index) {
-        super.usarSuperPoder(index);
-        System.out.println(Arrays.toString(superPoderes));
-        System.out.println("Usando teia para se locomover entre prédios!");
+        System.out.println(superPoderes[index]);
     }
 }
