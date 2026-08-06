@@ -8,7 +8,7 @@ public class Main {
                 new HomemDeFerro("Roupa Vermelha super resistente.", new String[]{"Voar."}),
                 new Tempestade("Branca.", new String[]{"Controlar o tempo."}),
                 new ViuvaNegra("Preta.", new String[]{"Lançar Teia."}),
-                new SuperHeroi("Traje invisível", new String[]{"Bênção e maldição."})
+                // new SuperHeroi("Traje invisível", new String[]{"Bênção e maldição."})
         };
 
         validar(superHerois);

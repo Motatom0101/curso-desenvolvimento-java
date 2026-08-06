@@ -12,10 +12,7 @@ public abstract class SuperHeroi {
     }
 
     // Metodos:
-    public void usarSuperPoder(int index) {
-
-        System.out.println("Usando super poder " + superPoderes[index]);
-    }
+    public abstract void usarSuperPoder(int index);
 
     // Metodo Get para acessar o traje:
     public String getTraje() {
